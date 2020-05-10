@@ -25,34 +25,11 @@
 
       <section class="container" id="main">
         
-        <div class="panel degraded performance">
-          Degraded Performance
+        <div class="panel operational">
+          All Systems Mostly Operational
         </div>
         
 
-        
-        <h4 id="incidents"><a href="#incidents" style="color: inherit;">Ongoing Incidents</a></h4>
-        <em>See the linked GitHub issue for incident updates.</em>
-        
-        <div class="incident">
-          <span class="date moment">2020/04/23 08:19:30 UTC</span>
-          <span class="label degraded performance float-right">degraded performance</span>
-          <hr/>
-          <span class="title">Travis-CI ppc64le builds sometimes stall <a href="https://github.com/conda-forge/status/issues/81">#81</a></span>
-          <br/>
-          Builds randomly stall after some minutes and produce no output so that they are killed later by the 10min-no-output-timeout.
-        </div>
-        
-        <div class="incident">
-          <span class="date moment">2020/05/08 09:38:04 UTC</span>
-          <span class="label degraded performance float-right">degraded performance</span>
-          <hr/>
-          <span class="title">Travis-CI ppc64le builds sometimes fail with no space left on device <a href="https://github.com/conda-forge/status/issues/79">#79</a></span>
-          <br/>
-          One node on Travis-CI workers is the cause of this and restarting the build usually work.
-Travis-CI has been informed.
-        </div>
-        
         
 
         <h4 id="repos_and_bots"><a href="#repos_and_bots" style="color: inherit;">Repos and Bots</a></h4>
@@ -185,6 +162,25 @@ Travis-CI has been informed.
 
         <h4 id="incident_history"><a href="#incident_history" style="color: inherit;">Incidents</a></h4>
         
+        
+        <div class="incident">
+          <span class="date moment">2020/05/10 05:39:43 UTC</span>
+          <span class="label operational float-right">resolved</span>
+          <hr/>
+          <span class="title">Travis-CI ppc64le builds sometimes stall <a href="https://github.com/conda-forge/status/issues/81">#81</a></span>
+          <br/>
+          Builds randomly stall after some minutes and produce no output so that they are killed later by the 10min-no-output-timeout.
+        </div>
+        
+        <div class="incident">
+          <span class="date moment">2020/05/10 05:39:25 UTC</span>
+          <span class="label operational float-right">resolved</span>
+          <hr/>
+          <span class="title">Travis-CI ppc64le builds sometimes fail with no space left on device <a href="https://github.com/conda-forge/status/issues/79">#79</a></span>
+          <br/>
+          One node on Travis-CI workers is the cause of this and restarting the build usually work.
+Travis-CI has been informed.
+        </div>
         
         <div class="incident">
           <span class="date moment">2020/04/30 21:18:15 UTC</span>
