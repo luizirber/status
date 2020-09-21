@@ -25,11 +25,24 @@
 
       <section class="container" id="main">
         
-        <div class="panel operational">
-          All Systems Mostly Operational
+        <div class="panel degraded performance">
+          Degraded Performance
         </div>
         
 
+        
+        <h4 id="incidents"><a href="#incidents" style="color: inherit;">Ongoing Incidents</a></h4>
+        <em>See the linked GitHub issue for incident updates.</em>
+        
+        <div class="incident">
+          <span class="date moment">2020/09/21 13:38:48 UTC</span>
+          <span class="label degraded performance float-right">degraded performance</span>
+          <hr/>
+          <span class="title">autotick bot is offline <a href="https://github.com/conda-forge/status/issues/89">#89</a></span>
+          <br/>
+          The autotick bot is currently offline. We are investigating the cause and don't expect it to be working again until this evening. Version update and migration PRs will likely not be issued during this time.
+        </div>
+        
         
 
         <h4 id="repos_and_bots"><a href="#repos_and_bots" style="color: inherit;">Repos and Bots</a></h4>
@@ -188,15 +201,6 @@
           <span class="title">Travis-CI ppc64le builds sometimes stall <a href="https://github.com/conda-forge/status/issues/81">#81</a></span>
           <br/>
           Builds randomly stall after some minutes and produce no output so that they are killed later by the 10min-no-output-timeout.
-        </div>
-        
-        <div class="incident">
-          <span class="date moment">2020/06/15 17:54:35 UTC</span>
-          <span class="label operational float-right">resolved</span>
-          <hr/>
-          <span class="title">Webservices including rerendering down <a href="https://github.com/conda-forge/status/issues/86">#86</a></span>
-          <br/>
-          the bot doesn't seem to answer to rerender requests, see https://github.com/conda-forge/pyusid-feedstock/pull/14
         </div>
         
         
