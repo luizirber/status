@@ -25,11 +25,24 @@
 
       <section class="container" id="main">
         
-        <div class="panel operational">
-          All Systems Mostly Operational
+        <div class="panel degraded performance">
+          Degraded Performance
         </div>
         
 
+        
+        <h4 id="incidents"><a href="#incidents" style="color: inherit;">Ongoing Incidents</a></h4>
+        <em>See the linked GitHub issue for incident updates.</em>
+        
+        <div class="incident">
+          <span class="date moment">2020/11/20 19:46:30 UTC</span>
+          <span class="label degraded performance float-right">degraded performance</span>
+          <hr/>
+          <span class="title">Travis POWER builds unavilable <a href="https://github.com/conda-forge/status/issues/100">#100</a></span>
+          <br/>
+          As part of the [recent pricing changes on travis ci](https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing) the conda-forge account has now ran out of builds credits causing native POWER builds to be unavailable. We're investigating possible solutions at the moment. Cross-compilation and emulated builds are unaffected.
+        </div>
+        
         
 
         <h4 id="repos_and_bots"><a href="#repos_and_bots" style="color: inherit;">Repos and Bots</a></h4>
