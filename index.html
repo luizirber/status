@@ -25,11 +25,24 @@
 
       <section class="container" id="main">
         
-        <div class="panel operational">
-          All Systems Mostly Operational
+        <div class="panel degraded performance">
+          Degraded Performance
         </div>
         
 
+        
+        <h4 id="incidents"><a href="#incidents" style="color: inherit;">Ongoing Incidents</a></h4>
+        <em>See the linked GitHub issue for incident updates.</em>
+        
+        <div class="incident">
+          <span class="date moment">2020/11/25 15:14:10 UTC</span>
+          <span class="label degraded performance float-right">degraded performance</span>
+          <hr/>
+          <span class="title">Errors pulling docker images <a href="https://github.com/conda-forge/status/issues/102">#102</a></span>
+          <br/>
+          Errors of the form "Error response from daemon: received unexpected HTTP status: 500 Internal Server Error" are currently been seen as a result of issues with quay.io. See https://status.quay.io/ for details.
+        </div>
+        
         
 
         <h4 id="repos_and_bots"><a href="#repos_and_bots" style="color: inherit;">Repos and Bots</a></h4>
@@ -202,15 +215,6 @@
           <span class="title">Bot PR updating down <a href="https://github.com/conda-forge/status/issues/88">#88</a></span>
           <br/>
           This means that in the short term bot-rerun labels won't work.
-        </div>
-        
-        <div class="incident">
-          <span class="date moment">2020/08/27 15:11:07 UTC</span>
-          <span class="label operational float-right">resolved</span>
-          <hr/>
-          <span class="title">autotick bot down <a href="https://github.com/conda-forge/status/issues/87">#87</a></span>
-          <br/>
-          The autotick bot is currently down due to corruption in the backend database. We are working to fix it and will hopefully have it up by the end of the day.
         </div>
         
         
