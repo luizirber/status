@@ -25,29 +25,11 @@
 
       <section class="container" id="main">
         
-        <div class="panel major outage">
-          Major Outage
+        <div class="panel operational">
+          All Systems Mostly Operational
         </div>
         
 
-        
-        <h4 id="incidents"><a href="#incidents" style="color: inherit;">Ongoing Incidents</a></h4>
-        <em>See the linked GitHub issue for incident updates.</em>
-        
-        <div class="incident">
-          <span class="date moment">2021/01/08 18:22:02 UTC</span>
-          <span class="label major outage float-right">major outage</span>
-          <hr/>
-          <span class="title">Webservice (linting, team updates, rerendering) is down <a href="https://github.com/conda-forge/status/issues/106">#106</a></span>
-          <br/>
-          Heroku server has hundreds of logs like,
-```
-Error L10 (output buffer overflow): drain 'd.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' dropped 1 messages since 2021-01-08T18:18:57.346657+00:00.
-```
-
-cc @conda-forge/core 
-        </div>
-        
         
 
         <h4 id="repos_and_bots"><a href="#repos_and_bots" style="color: inherit;">Repos and Bots</a></h4>
@@ -186,6 +168,20 @@ cc @conda-forge/core
 
         <h4 id="incident_history"><a href="#incident_history" style="color: inherit;">Incidents</a></h4>
         
+        
+        <div class="incident">
+          <span class="date moment">2021/01/08 18:42:03 UTC</span>
+          <span class="label operational float-right">resolved</span>
+          <hr/>
+          <span class="title">Webservice (linting, team updates, rerendering) is down <a href="https://github.com/conda-forge/status/issues/106">#106</a></span>
+          <br/>
+          Heroku server has hundreds of logs like,
+```
+Error L10 (output buffer overflow): drain 'd.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' dropped 1 messages since 2021-01-08T18:18:57.346657+00:00.
+```
+
+cc @conda-forge/core 
+        </div>
         
         <div class="incident">
           <span class="date moment">2020/12/16 14:33:58 UTC</span>
